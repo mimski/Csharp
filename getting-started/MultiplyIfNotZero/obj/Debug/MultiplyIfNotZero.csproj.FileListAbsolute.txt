@@ -1,0 +1,7 @@
+C:\Users\maria22\Documents\MariaCode\ExercisesJudgeTelerikAcademy\MultiplyIfNotZero\bin\Debug\MultiplyIfNotZero.exe.config
+C:\Users\maria22\Documents\MariaCode\ExercisesJudgeTelerikAcademy\MultiplyIfNotZero\bin\Debug\MultiplyIfNotZero.exe
+C:\Users\maria22\Documents\MariaCode\ExercisesJudgeTelerikAcademy\MultiplyIfNotZero\bin\Debug\MultiplyIfNotZero.pdb
+C:\Users\maria22\Documents\MariaCode\ExercisesJudgeTelerikAcademy\MultiplyIfNotZero\obj\Debug\MultiplyIfNotZero.csprojAssemblyReference.cache
+C:\Users\maria22\Documents\MariaCode\ExercisesJudgeTelerikAcademy\MultiplyIfNotZero\obj\Debug\MultiplyIfNotZero.csproj.CoreCompileInputs.cache
+C:\Users\maria22\Documents\MariaCode\ExercisesJudgeTelerikAcademy\MultiplyIfNotZero\obj\Debug\MultiplyIfNotZero.exe
+C:\Users\maria22\Documents\MariaCode\ExercisesJudgeTelerikAcademy\MultiplyIfNotZero\obj\Debug\MultiplyIfNotZero.pdb
