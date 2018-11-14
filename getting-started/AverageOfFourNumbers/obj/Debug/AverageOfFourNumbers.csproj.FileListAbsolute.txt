@@ -1,0 +1,6 @@
+C:\Users\maria22\Documents\MariaCode\ExercisesJudgeTelerikAcademy\AverageOfFourNumbers\bin\Debug\AverageOfFourNumbers.exe.config
+C:\Users\maria22\Documents\MariaCode\ExercisesJudgeTelerikAcademy\AverageOfFourNumbers\bin\Debug\AverageOfFourNumbers.exe
+C:\Users\maria22\Documents\MariaCode\ExercisesJudgeTelerikAcademy\AverageOfFourNumbers\bin\Debug\AverageOfFourNumbers.pdb
+C:\Users\maria22\Documents\MariaCode\ExercisesJudgeTelerikAcademy\AverageOfFourNumbers\obj\Debug\AverageOfFourNumbers.csproj.CoreCompileInputs.cache
+C:\Users\maria22\Documents\MariaCode\ExercisesJudgeTelerikAcademy\AverageOfFourNumbers\obj\Debug\AverageOfFourNumbers.exe
+C:\Users\maria22\Documents\MariaCode\ExercisesJudgeTelerikAcademy\AverageOfFourNumbers\obj\Debug\AverageOfFourNumbers.pdb
