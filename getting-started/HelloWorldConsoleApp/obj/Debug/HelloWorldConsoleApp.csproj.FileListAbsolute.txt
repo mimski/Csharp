@@ -1,7 +1,0 @@
-C:\Users\maria22\Documents\MariaCode\CSharpExercises\HelloWorldConsoleApp\bin\Debug\HelloWorldConsoleApp.exe.config
-C:\Users\maria22\Documents\MariaCode\CSharpExercises\HelloWorldConsoleApp\bin\Debug\HelloWorldConsoleApp.exe
-C:\Users\maria22\Documents\MariaCode\CSharpExercises\HelloWorldConsoleApp\bin\Debug\HelloWorldConsoleApp.pdb
-C:\Users\maria22\Documents\MariaCode\CSharpExercises\HelloWorldConsoleApp\obj\Debug\HelloWorldConsoleApp.csprojAssemblyReference.cache
-C:\Users\maria22\Documents\MariaCode\CSharpExercises\HelloWorldConsoleApp\obj\Debug\HelloWorldConsoleApp.csproj.CoreCompileInputs.cache
-C:\Users\maria22\Documents\MariaCode\CSharpExercises\HelloWorldConsoleApp\obj\Debug\HelloWorldConsoleApp.exe
-C:\Users\maria22\Documents\MariaCode\CSharpExercises\HelloWorldConsoleApp\obj\Debug\HelloWorldConsoleApp.pdb
