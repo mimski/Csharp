@@ -5,9 +5,9 @@
 
 class MultiplicationTable
 {
-    static void Main(string[] args)
+    static void Main()
     {
-        Console.Write("Enter number: ");
+        Console.Write("Enter a number: ");
 
         int x = Convert.ToInt32(Console.ReadLine());
 
