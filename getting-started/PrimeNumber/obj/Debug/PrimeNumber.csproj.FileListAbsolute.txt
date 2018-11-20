@@ -1,7 +1,0 @@
-C:\Users\maria22\Documents\MariaCode\CSharpExercises\PrimeNumber\bin\Debug\PrimeNumber.exe.config
-C:\Users\maria22\Documents\MariaCode\CSharpExercises\PrimeNumber\bin\Debug\PrimeNumber.exe
-C:\Users\maria22\Documents\MariaCode\CSharpExercises\PrimeNumber\bin\Debug\PrimeNumber.pdb
-C:\Users\maria22\Documents\MariaCode\CSharpExercises\PrimeNumber\obj\Debug\PrimeNumber.csproj.CoreCompileInputs.cache
-C:\Users\maria22\Documents\MariaCode\CSharpExercises\PrimeNumber\obj\Debug\PrimeNumber.exe
-C:\Users\maria22\Documents\MariaCode\CSharpExercises\PrimeNumber\obj\Debug\PrimeNumber.pdb
-C:\Users\maria22\Documents\MariaCode\CSharpExercises\PrimeNumber\obj\Debug\PrimeNumber.csprojAssemblyReference.cache
