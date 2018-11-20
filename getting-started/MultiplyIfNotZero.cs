@@ -10,12 +10,12 @@ class MultiplyIfNotZero
     {
         int x, y;
 
-        Console.Write("Enter number: ");
+        Console.Write("Enter a number: ");
         x = Convert.ToInt32(Console.ReadLine());
 
         if (x != 0)
         {
-            Console.Write("Enter number: ");
+            Console.Write("Enter a number: ");
             y = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("{0} x {1} = {2}", x, y, x * y);
         }
