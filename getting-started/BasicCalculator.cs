@@ -5,7 +5,7 @@ multiplying and dividing two numbers typed by the user*/
 
 class BasicCalculator
 {
-    static void Main(string[] args)
+    static void Main()
     {
         Console.Write("Enter number: ");
         int num1 = Convert.ToInt32(Console.ReadLine());
