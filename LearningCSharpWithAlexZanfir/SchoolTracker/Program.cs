@@ -3,13 +3,20 @@ using System.Collections.Generic;
 
 namespace SchoolTracker
 {
+    enum School
+    {
+        Hogwarts,
+        Harvard,
+        MIT
+    }
+
     class Program
     {
+        static List<Student> students = new List<Student>();
+
         static void Main(string[] args)
         {
             Import();
-
-            var students = new List<Student>();
 
             var adding = true;
 
@@ -23,8 +30,7 @@ namespace SchoolTracker
 
                     student.Grade = Util.Console.AskInt("Student Grade: ");
 
-                    //var x = 0;
-                    //var y = 1 / x;
+                    student.School = (School) Util.Console.AskInt("School Name (type the corresponding number): \n 0 - Hogwarts \n 1 - Harvard \n 2 - MIT");
 
                     student.Birthday = Util.Console.Ask("Student Birthday: ");
 
@@ -58,12 +64,33 @@ namespace SchoolTracker
             {
                 Console.WriteLine("Name: {0}, Grade: {1}", student.Name, student.Grade);
             }
+
+            Exports();
         }
 
         static void Import()
         {
             var importedStudent = new Student("Jenny", 86, "birthday", "address", 123456);
             Console.WriteLine("Name: {0}, Grade: {1}", importedStudent.Name, importedStudent.Grade);
+        }
+
+        static void Exports()
+        {
+            foreach (var student in students)
+            {
+                switch (student.School)
+                {
+                    case School.Hogwarts:
+                        Console.WriteLine("Exporting to Hogwarts");
+                        break;
+                    case School.Harvard:
+                        Console.WriteLine("Exporting to Harvard");
+                        break;
+                    case School.MIT:
+                        Console.WriteLine("Exporting to MIT");
+                        break;
+                }
+            }
         }
     }
 
@@ -85,6 +112,7 @@ namespace SchoolTracker
 
         public int Grade;
         public string Birthday;
+        public School School;
 
         public Student()
         {
