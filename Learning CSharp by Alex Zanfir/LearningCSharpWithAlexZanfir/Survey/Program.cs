@@ -18,6 +18,20 @@ namespace Survey
             Console.WriteLine("Your name is: {0}", name);
             Console.WriteLine("Your age is: {0}", age);
             Console.WriteLine("Your birth month is: {0}", month);
+
+            // Zodiac accuracy is not a biggest concern for this exercise
+            if (month == "march")
+            {
+                Console.WriteLine("you are an Aries");
+            }
+            else if (month == "april")
+            {
+                Console.WriteLine("you are a Taurus");
+            }
+            else if (month == "may")
+            {
+                Console.WriteLine("you are a Gemini");
+            }
         }
     }
 }
