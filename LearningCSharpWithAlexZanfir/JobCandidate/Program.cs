@@ -24,7 +24,6 @@ namespace JobCandidate
                 case 3:
                     Console.WriteLine("Advanced");
                     break;
-
                 default:
                     Console.WriteLine("Senior");
                     break;
