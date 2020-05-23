@@ -6,17 +6,19 @@ namespace PassCode
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("What is the pass code?");
-            var code = Console.ReadLine();
+            var code = "";
 
-            if (code == "secret")
+            while (code != "secret")
             {
-                Console.WriteLine("Authenticated");
+                Console.WriteLine("What is the pass code?");
+                code = Console.ReadLine();
+
+                if (code != "secret")
+                {
+                    Console.WriteLine("Not Authenticated");
+                }
             }
-            else
-            {
-                Console.WriteLine("Not Authenticated");
-            }
+            Console.WriteLine("Authenticated");
         }
     }
 }
