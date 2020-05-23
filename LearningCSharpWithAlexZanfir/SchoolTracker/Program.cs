@@ -21,7 +21,7 @@ namespace SchoolTracker
 
                     student.Name = Util.Console.Ask("Student Name: ");
 
-                    student.Grade = int.Parse(Util.Console.Ask("Student Grade: "));
+                    student.Grade = Util.Console.AskInt("Student Grade: ");
 
                     //var x = 0;
                     //var y = 1 / x;
@@ -30,7 +30,7 @@ namespace SchoolTracker
 
                     student.Address = Util.Console.Ask("Student Address: ");
 
-                    student.Phone = int.Parse(Util.Console.Ask("Student Phone: "));
+                    student.Phone = Util.Console.AskInt("Student Phone: ");
 
                     students.Add(student);
                     Student.Count++;
@@ -44,10 +44,10 @@ namespace SchoolTracker
                     }
 
                 }
-                //catch (FormatException)
-                //{
-                //    Console.WriteLine("Format error");
-                //}
+                catch (FormatException msg)
+                {
+                    Console.WriteLine(msg.Message);
+                }
                 catch (Exception)
                 {
                     Console.WriteLine("Error adding student");
