@@ -30,6 +30,8 @@ namespace SchoolTracker
                 student.Phone = int.Parse(Console.ReadLine());
 
                 students.Add(student);
+                Student.Count++;
+                Console.WriteLine("Student count {0}", Student.Count);
 
                 Console.WriteLine("Add another? y/n");
 
@@ -48,6 +50,8 @@ namespace SchoolTracker
 
     class Student
     {
+        static public int Count = 0;
+
         public string Name;
         public int Grade;
         public string Birthday;
