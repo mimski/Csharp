@@ -7,34 +7,19 @@ namespace Survey
         static void Main(string[] args)
         {
             Console.WriteLine("What is your name?");
-            var name = Console.ReadLine();
-
-            if (name == "")
-            {
-                name = TryAgain();
-            }
+            var name = TryAnswer();
 
             Console.WriteLine("What is your age?");
-            var age = Console.ReadLine();
-
-            if (age == "")
-            {
-                age = TryAgain();
-            }
+            var age = TryAnswer();
 
             Console.WriteLine("What month were you born in?");
-            var month = Console.ReadLine();
-
-            if (month == "")
-            {
-                month = TryAgain();
-            }
+            var month = TryAnswer();
 
             Console.WriteLine("Your name is: {0}", name);
             Console.WriteLine("Your age is: {0}", age);
             Console.WriteLine("Your birth month is: {0}", month);
 
-            // Zodiac accuracy is not a biggest concern for this exercise
+            // Zodiac accuracy is not the biggest concern for this exercise
             if (month == "march")
             {
                 Console.WriteLine("you are an Aries");
@@ -49,10 +34,16 @@ namespace Survey
             }
         }
 
-        static string TryAgain()
+        static string TryAnswer()
         {
-            Console.WriteLine("You didn't type anything, please try again:");
-            return Console.ReadLine();
+            var input = Console.ReadLine();
+            if (input == "")
+            {
+                Console.WriteLine("You didn't type anything, please try again:");
+                return Console.ReadLine();
+            }
+
+            return input;
         }
     }
 }
