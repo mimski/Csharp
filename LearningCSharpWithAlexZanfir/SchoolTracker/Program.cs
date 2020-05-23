@@ -14,20 +14,16 @@ namespace SchoolTracker
             while (adding)
             {
                 var student = new Student();
-                Console.Write("Student Name: ");
-                student.Name = Console.ReadLine();
 
-                Console.Write("Student Grade: ");
-                student.Grade = int.Parse(Console.ReadLine());
+                student.Name = Util.Console.Ask("Student Name: ");
+                
+                student.Grade = int.Parse(Util.Console.Ask("Student Grade: "));
+                
+                student.Birthday = Util.Console.Ask("Student Birthday: ");
+               
+                student.Address = Util.Console.Ask("Student Address: ");
 
-                Console.Write("Student Birthday: ");
-                student.Birthday = Console.ReadLine();
-
-                Console.Write("Student Address: ");
-                student.Address = Console.ReadLine();
-
-                Console.Write("Student Phone: ");
-                student.Phone = int.Parse(Console.ReadLine());
+                student.Phone = int.Parse(Util.Console.Ask("Student Phone: "));
 
                 students.Add(student);
                 Student.Count++;
