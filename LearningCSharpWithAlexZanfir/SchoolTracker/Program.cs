@@ -7,6 +7,8 @@ namespace SchoolTracker
     {
         static void Main(string[] args)
         {
+            Import();
+
             var students = new List<Student>();
 
             var adding = true;
@@ -42,6 +44,12 @@ namespace SchoolTracker
                 Console.WriteLine("Name: {0}, Grade: {1}", student.Name, student.Grade);
             }
         }
+
+        static void Import()
+        {
+            var importedStudent = new Student("Jenny", 86, "birthday", "address", 123456);
+            Console.WriteLine("Name: {0}, Grade: {1}", importedStudent.Name, importedStudent.Grade);
+        }
     }
 
     class Student
@@ -53,6 +61,20 @@ namespace SchoolTracker
         public string Birthday;
         public string Address;
         private int phone;
+
+        public Student()
+        {
+
+        }
+
+        public Student(string name, int grade, string birthday, string address, int phone)
+        {
+            this.Name = name;
+            this.Grade = grade;
+            this.Birthday = birthday;
+            this.Address = address;
+            this.Phone = phone;
+        }
 
         public int Phone
         {
