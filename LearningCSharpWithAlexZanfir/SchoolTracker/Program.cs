@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
 
 namespace SchoolTracker
 {
@@ -16,32 +15,42 @@ namespace SchoolTracker
 
             while (adding)
             {
-                var student = new Student();
-
-                student.Name = Util.Console.Ask("Student Name: ");
-                
-                var result = int.TryParse(Util.Console.Ask("Student Grade: "), out student.Grade);
-
-                if (!result)
+                try
                 {
-                    Console.WriteLine("error, please enter a number");
+                    var student = new Student();
+
+                    student.Name = Util.Console.Ask("Student Name: ");
+
+                    student.Grade = int.Parse(Util.Console.Ask("Student Grade: "));
+
+                    //var x = 0;
+                    //var y = 1 / x;
+
+                    student.Birthday = Util.Console.Ask("Student Birthday: ");
+
+                    student.Address = Util.Console.Ask("Student Address: ");
+
+                    student.Phone = int.Parse(Util.Console.Ask("Student Phone: "));
+
+                    students.Add(student);
+                    Student.Count++;
+                    Console.WriteLine("Student count {0}", Student.Count);
+
+                    Console.WriteLine("Add another? y/n");
+
+                    if (Console.ReadLine() != "y")
+                    {
+                        adding = false;
+                    }
+
                 }
-                
-                student.Birthday = Util.Console.Ask("Student Birthday: ");
-               
-                student.Address = Util.Console.Ask("Student Address: ");
-
-                student.Phone = int.Parse(Util.Console.Ask("Student Phone: "));
-
-                students.Add(student);
-                Student.Count++;
-                Console.WriteLine("Student count {0}", Student.Count);
-
-                Console.WriteLine("Add another? y/n");
-
-                if (Console.ReadLine() != "y")
+                //catch (FormatException)
+                //{
+                //    Console.WriteLine("Format error");
+                //}
+                catch (Exception)
                 {
-                    adding = false;
+                    Console.WriteLine("Error adding student");
                 }
             }
 
