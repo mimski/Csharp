@@ -32,8 +32,13 @@ namespace Survey
             }
         }
 
+        public static event Action Posted;
+
         static void Main(string[] args)
         {
+            var stats = new Stats();
+            stats.Start();
+
             var data = new Data();
 
             Console.WriteLine("What is your name?");
@@ -44,6 +49,11 @@ namespace Survey
 
             Console.WriteLine("What month were you born in?");
             data.Month = TryAnswer();
+
+            if (Posted != null)
+            {
+                Posted();
+            }
 
             data.Display();
         }
