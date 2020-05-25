@@ -19,6 +19,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JobCandidate", "JobCandidat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OutReference", "OutReference\OutReference.csproj", "{9BF97F61-5DCC-4E80-9EB8-CA9580AB9D65}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeometryTool", "GeometryTool\GeometryTool.csproj", "{ABB796BA-409C-478C-9769-20021F44A71F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +55,10 @@ Global
 		{9BF97F61-5DCC-4E80-9EB8-CA9580AB9D65}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9BF97F61-5DCC-4E80-9EB8-CA9580AB9D65}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9BF97F61-5DCC-4E80-9EB8-CA9580AB9D65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABB796BA-409C-478C-9769-20021F44A71F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABB796BA-409C-478C-9769-20021F44A71F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABB796BA-409C-478C-9769-20021F44A71F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABB796BA-409C-478C-9769-20021F44A71F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,6 +70,7 @@ Global
 		{BBD0C107-50FD-466E-96D0-DF5C8B0F03C7} = {C49F4C02-7BBC-4044-B933-ABE7DD70B06C}
 		{7AC3F111-16A3-44BB-AABA-7A9E906B6EC2} = {C49F4C02-7BBC-4044-B933-ABE7DD70B06C}
 		{9BF97F61-5DCC-4E80-9EB8-CA9580AB9D65} = {C49F4C02-7BBC-4044-B933-ABE7DD70B06C}
+		{ABB796BA-409C-478C-9769-20021F44A71F} = {C49F4C02-7BBC-4044-B933-ABE7DD70B06C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A8C2FB0F-56BD-443B-A1C3-DE8A5A980D64}
