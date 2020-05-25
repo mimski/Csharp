@@ -63,6 +63,8 @@ namespace SchoolTracker
                 }
             }
 
+            ShowGrade("");
+
             foreach (var student in students)
             {
                 Console.WriteLine("Name: {0}, Grade: {1}", student.Name, student.Grade);
@@ -95,6 +97,34 @@ namespace SchoolTracker
                 }
             }
         }
+
+        static void ShowGrade(string name)
+        {
+            //var found = students.Find(predicate);
+
+            //var found = students.Find(student =>
+            //{
+            //    return (student.Name == "Jim");
+            //});
+
+            var found = students.Find(student => student.Name == "Jim");
+
+            Console.WriteLine("{0}'s Grade: {1}", found.Name, found.Grade);
+        }
+
+        //static bool predicate(Student student)
+        //{
+        //    return (student.Name == "Jim");
+
+        //    //if (student.Name == "Jim")
+        //    //{
+        //    //    return true;
+        //    //}
+        //    //else
+        //    //{
+        //    //    return false;
+        //    //}
+        //}
     }
 
     class Member
