@@ -16,6 +16,9 @@ namespace SchoolTracker
 
         static void Main(string[] args)
         {
+            PayRoll payRoll = new PayRoll();
+            payRoll.PayAll();
+
             Import();
 
             var adding = true;
@@ -129,8 +132,5 @@ namespace SchoolTracker
         }
     }
 
-    class Teacher : Member
-    {
-        public string Subject;
-    }
+   
 }
